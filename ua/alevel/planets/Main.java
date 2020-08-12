@@ -21,5 +21,8 @@ public class Main {
             planetInfo.gravitationalAccelerationInfo(planet);
         }
 
+        Earth earth = new Earth();
+        System.out.println("The population of the Earth is " + earth.getPopulationBillions() + " billions.");
+
     }
 }
